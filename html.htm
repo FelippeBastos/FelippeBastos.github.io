@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="estilo.css"
+<meta charset=utf-8 />
+<title>Primeiro Jogo em JScript</title>
+<body>
+	<div class="w3-container w3-yellow">
+  <h1>Pedra, Papel e Tesoura</h1>
+	</div>
+	<div class="w3-container w3-light-grey w3-margin">
+  <h2 style="text-align: center">
+  	 <p>Regras : O jogadore deve escolher entre : "Pedra" , "Papel" ou "Tesoura" e o computador ira escolher entre uma das opções tambem.</p>
+  	 <p>Papel ganha de Pedra , Tesoura ganha de Papel , Pedra ganha de tesoura</p>
+
+  	     <br/>
+
+    <select id="opcaojogador">
+        <option value="">Opção</option>
+        <option value="pedra"> Pedra </option>
+        <option value="papel"> Papel </option>
+        <option value="tesoura"> Tesoura </option>
+    </select>
+
+    <input type="button" value="Play" id="btn-action" />
+
+    <br/>
+  	 
+  	 <label for="placar-jogador" id="label-jogador">Jogador</label>
+    <input type="text" id="placar-jogador" class="placar" readonly="readonly" value="0" />
+    
+    <input type="text" id="placar-computador" class="placar" readonly="readonly" value="0" />
+    <label for="placar-computador">Computador</label>
+  	
+    <table>
+        <tr>
+            <th id="th-jogador">Jogador</th>
+            <td>&nbsp;</td>
+            <th>Computador</th>
+        </tr>
+        <tr>
+            <td id="cmp-jogador">--</td>
+            <td> X </td>
+            <td id="cmp-computador">--</td>
+        </tr>
+        <tr>
+            <th>Vencedor: </th>
+            <td>&nbsp;</td>
+            <td id="cmp-vencedor">--</td>
+        </tr>        
+    </table>
+
+  </h2>
+	</div>
+</body><script src="script.js"></script>
+</head>
+</html>

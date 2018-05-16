@@ -1,0 +1,33 @@
+select, input {
+    padding:5px;
+    font-size:20px;
+    margin:5px;
+}
+
+input.placar {
+    width:30px;
+    text-align:center;
+}
+
+table {
+    width:370px;
+    border:0;
+}
+
+table th, table td {
+    padding:4px;
+}
+
+table th {
+    background-color:#000000;
+    color:#F8F8FF;    
+}
+
+table td {
+    text-align:center;
+}
+
+#cmp-vencedor {
+    background-color:#000000;
+    color:#F8F8FF;
+}
