@@ -1,0 +1,32 @@
+.letra {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: white;
+}
+.palavraAtual {
+    list-style: none;
+}
+.output {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.correto {
+    background-color: green;
+    transition: all 1s ease;
+}
+.error {
+    color: red;
+    opacity: 1;
+}
+.warning {
+    color: orange;
+    opacity: 1;
+}
+.vitoria {
+    color: green;
+    opacity: 1;
+}
