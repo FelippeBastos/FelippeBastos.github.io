@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title>Calculadora de Juros</title>
+	<script src="js.js"></script>
+</head>
+<body>
+	<div class="w3-container w3-yellow">
+	<h1>Calculadora de Juros Composto</h1>
+	<div class="we-container w3-light-grey w3-margin">
+		<h2>Digite seu capital :</h2>
+		<input type="text" id="capital" name="capital">
+		<h2>Digite o juros :</h2>
+		<input type="text" id="juros" name="juros">
+		<h2>Digite o tempo :</h2>
+		<input type="text" id="tempo" name="tempo">
+		
+		<label class="lb" id="rend" name="rend" readonly></label>
+		<button type="Submit" onclick="calcular()">Calcular</button>
+
+	<div class="w3-container" id="resultado">
+		<h1>Resultado:</h1>
+	</div>
+	<div class="w3-container w3-light-grey">
+		<h1>Rendimento</h1>
+		<input type="visor" id="rend1">
+		<input type="visor" id="rend2">
+	</div>
+</body>
+</html>
